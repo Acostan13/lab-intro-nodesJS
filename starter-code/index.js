@@ -38,4 +38,5 @@ class SortedList {
     return this.items.reduce((accumulator, currentValue) => accumulator + currentValue) / this.items.length
   }
 }
+//
 module.exports = SortedList;
